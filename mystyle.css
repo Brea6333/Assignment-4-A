@@ -1,0 +1,317 @@
+/*FONTS*/
+
+@font-face {
+  font-family: SourceCodePro;
+  src: url(SourceCodePro-Medium.ttf);
+}
+
+@font-face {
+  font-family: SourceCodePro2;
+  src: url(SourceCodePro-BlackItalic.ttf);
+}
+
+/***********/
+
+h1{
+  font-family: SourceCodePro-Medium;
+  background: tan;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: repeating-linear-gradient(
+  45deg,
+  #fff2e6,
+  #fff2e6 10px,
+  #ffe6cc 10px,
+  #ffe6cc 20px
+);
+}
+#anime{
+  display:flex;
+  justify-content: center;
+}
+#anime img{
+  width:250px;
+  height:250px;
+}
+
+
+#container{
+  position: relative;
+  top: 100px;
+  width: 500px;
+}
+
+#content-box{
+  background:tan;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 5px 10px #CCC;
+}
+
+#hero-image{
+  display: flex;
+  justify-content: center;
+}
+
+#hero-image img{
+  width: 250px;
+  height: 250px;
+}
+
+
+
+ul{
+  position: relative;
+  margin: 40px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#clove {
+	overflow: hidden;
+}
+#clove figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#clove figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes clove {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+#hell {
+	overflow: hidden;
+}
+#hell figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#hell figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes hell {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+
+#blh {
+	overflow: hidden;
+}
+#blh figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#blh figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes blh {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+#SunK {
+	overflow: hidden;
+}
+#SunK figure {
+	position: relative;
+	width: 500%;
+	margin: 10px;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#SunK figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes SunK {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+li{
+  margin: 10px;
+}
+
+a{
+  font-family: SourceCodePro-Black;
+  text-decoration: none;
+  padding: 5px;
+  color: red;
+}
+
+a:hover{
+  background: #CCC;
+  color:#000;
+}
